@@ -8,6 +8,28 @@
     android:orientation="vertical"
     android:background="#FF00FF"
     tools:context=".MainActivity">
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <RadioButton
+            android:id="@+id/rb_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Second 엑티비티"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"/>
+        <RadioButton
+            android:id="@+id/rb_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Third 엑티비티"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"/>
+    </RadioGroup>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
