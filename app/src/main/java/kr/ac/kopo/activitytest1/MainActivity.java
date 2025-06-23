@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = null; // 인텐트 객체 생성
-                if(rg.getCheckedRadioButtonId() == R.id.btn_second)
+                if(rg.getCheckedRadioButtonId() == R.id.rb_second)
                 {
                     intent = new Intent(getApplicationContext(), SecondActivity.class);
                 }
